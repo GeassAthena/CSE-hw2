@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/CSE/hw2/handout/cpy.c
+fcntl.h
+-
+unistd.h
+-
+errno.h
+-
+stdio.h
+-
+setjmp.h
+-
+
